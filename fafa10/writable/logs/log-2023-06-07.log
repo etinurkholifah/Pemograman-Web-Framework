@@ -1,0 +1,100 @@
+CRITICAL - 2023-06-07 02:39:49 --> Call to undefined method App\Models\FilmModel::getallDdata
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getallDdata', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 02:57:45 --> Too few arguments to function App\Models\FilmModel::getDataBy(), 0 passed in C:\xampp\htdocs\fafa10\app\Controllers\Film.php on line 40 and exactly 1 expected
+in APPPATH\Models\FilmModel.php on line 56.
+ 1 APPPATH\Controllers\Film.php(40): App\Models\FilmModel->getDataBy()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->film_order()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 02:59:31 --> Too few arguments to function App\Models\FilmModel::getDataBy(), 0 passed in C:\xampp\htdocs\fafa10\app\Controllers\Film.php on line 40 and exactly 1 expected
+in APPPATH\Models\FilmModel.php on line 56.
+ 1 APPPATH\Controllers\Film.php(40): App\Models\FilmModel->getDataBy()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->film_order()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:45:28 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:47:21 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:47:23 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:49:17 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:50:19 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:51:11 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:52:53 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:52:54 --> Call to undefined method App\Models\FilmModel::getaAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getaAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-07 03:55:49 --> Undefined variable $row
+in APPPATH\Views\semuafilm.php on line 24.
+ 1 APPPATH\Views\semuafilm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\fafa10\\app\\Views\\semuafilm.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\fafa10\\app\\Views\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(28): view('semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')

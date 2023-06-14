@@ -1,0 +1,126 @@
+CRITICAL - 2023-06-13 13:24:52 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 13:42:43 --> Call to undefined method App\Models\FilmModel::getResultArray
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\FilmModel.php(68): CodeIgniter\Model->__call('getResultArray', [])
+ 2 APPPATH\Controllers\Film.php(45): App\Models\FilmModel->getLimit()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->film_limit_five()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 13:46:28 --> Call to undefined method App\Models\FilmModel::getResultArray
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\FilmModel.php(68): CodeIgniter\Model->__call('getResultArray', [])
+ 2 APPPATH\Controllers\Film.php(45): App\Models\FilmModel->getLimit()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->film_limit_five()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 14:54:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Genre.php(26): CodeIgniter\Model->__call('getAllData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 14:58:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Genre.php(26): CodeIgniter\Model->__call('getAllData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 15:08:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Genre.php(27): CodeIgniter\Model->__call('getAllData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 15:08:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Genre.php(27): CodeIgniter\Model->__call('getAllData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 15:09:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Genre.php(27): CodeIgniter\Model->__call('getAllData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 15:15:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(234): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\GenreModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Genre.php(27): App\Models\GenreModel->getAllData()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 15:15:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(234): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\GenreModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Genre.php(27): App\Models\GenreModel->getAllData()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 15:16:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(234): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\GenreModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Genre.php(27): App\Models\GenreModel->getAllData()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-13 15:16:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(234): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\GenreModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Genre.php(27): App\Models\GenreModel->getAllData()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')

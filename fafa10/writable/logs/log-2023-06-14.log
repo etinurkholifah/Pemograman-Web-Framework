@@ -1,0 +1,145 @@
+ERROR - 2023-06-14 00:29:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\fafa10\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\fafa10\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'film_db', 3306, '', 0)
+#1 C:\xampp\htdocs\fafa10\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\fafa10\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\fafa10\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fafa10\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fafa10\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fafa10\app\Models\GenreModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fafa10\app\Controllers\Genre.php(27): App\Models\GenreModel->getAllData()
+#8 C:\xampp\htdocs\fafa10\system\CodeIgniter.php(934): App\Controllers\Genre->all()
+#9 C:\xampp\htdocs\fafa10\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#10 C:\xampp\htdocs\fafa10\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fafa10\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fafa10\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\fafa10\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\fafa10\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\fafa10\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\fafa10\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\fafa10\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\fafa10\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\fafa10\app\Models\GenreModel.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\fafa10\app\Controllers\Genre.php(27): App\Models\GenreModel->getAllData()
+#7 C:\xampp\htdocs\fafa10\system\CodeIgniter.php(934): App\Controllers\Genre->all()
+#8 C:\xampp\htdocs\fafa10\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#9 C:\xampp\htdocs\fafa10\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fafa10\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\fafa10\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-14 00:29:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `genre`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\GenreModel.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Genre.php(27): App\Models\GenreModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 00:47:35 --> syntax error, unexpected variable "$query", expecting ";" or "{"
+in APPPATH\Models\FilmModel.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fafa10\\app\\Models\\FilmModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\FilmModel')
+ 3 APPPATH\Controllers\Film.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\FilmModel')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 00:50:04 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(27): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 03:51:24 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 03:51:32 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 03:52:04 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 03:52:06 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 03:55:10 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 03:55:32 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 03:57:27 --> Invalid file: "film/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-14 04:01:00 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\index.php on line 60.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Film.php(23): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
