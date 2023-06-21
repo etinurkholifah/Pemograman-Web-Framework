@@ -25,7 +25,7 @@ class Genre extends BaseController
     public function all(){
     
         $data['semuagenre'] =$this->genre->getAllData();
-        return view("semuagenre", $data);
+        return view("genre", $data);
     }
     
     public function genre (){

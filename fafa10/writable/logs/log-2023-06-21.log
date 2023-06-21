@@ -1,0 +1,60 @@
+CRITICAL - 2023-06-21 00:54:37 --> Invalid file: "film/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/add', [], true)
+ 3 APPPATH\Controllers\Film.php(36): view('film/add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-21 00:58:17 --> Invalid file: "film/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/add', [], true)
+ 3 APPPATH\Controllers\Film.php(36): view('film/add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-21 00:58:18 --> Invalid file: "film/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/add', [], true)
+ 3 APPPATH\Controllers\Film.php(36): view('film/add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-21 01:18:24 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Film.php(26): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-21 01:18:27 --> Invalid file: "add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add', [], true)
+ 3 APPPATH\Controllers\Film.php(36): view('add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')
+CRITICAL - 2023-06-21 01:18:29 --> Invalid file: "add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add', [], true)
+ 3 APPPATH\Controllers\Film.php(36): view('add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\fafa10\\public\\index.php')

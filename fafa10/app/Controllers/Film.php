@@ -19,6 +19,9 @@ class Film extends BaseController
     
     public function index()
     {
+        //step 5 memanggil ulang
+        // dd($this->Film->getFilm());
+        //array
         $data['data_film'] =$this->film->getAllDataJoin();
         return view("index", $data);
     }
@@ -27,6 +30,10 @@ class Film extends BaseController
         $data['semuafilm'] =$this->film->getAllDataJoin();
         return view("semuafilm", $data);
        
+    }
+    public function add()
+    {
+        return view("add");
     }
     public function film_by_id()
     {
