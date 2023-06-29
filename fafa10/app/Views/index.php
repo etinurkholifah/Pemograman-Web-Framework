@@ -26,22 +26,20 @@
                         <th>Duration</th>
                         <th>Action</th>
                     </tr>
-                    <?php  $i = 1;
-                    foreach($data_film as $film) : ?>
-                    
-                        <tr>
-                            <td><?= $i++ ?></td>
-                            <td><?=$film["nama_film"] ?><td>
-                            <td><img style="width: 50px;" src="/assets/cover/<?= $film["cover"] ?>" class="card-img-top">
-                            <td><?=$film["nama_genre"] ?><td>
-                            <td><?=$film["duration"] ?><td>
-
-                        <td>
-                            <a href="" class="btn btn-success">Update</a>
-                            <a href="" class="btn btn-warning">Delete</a>
+                    <?php $i =1;
+                 foreach($data_film as $film) :?>
+                <tr>
+                    <td><?= $i++; ?></td>
+                    <td><?= $film['nama_film']?></td>
+                    <td><img style="width: 50px;" src="/assets/cover/<?= $film["cover"]?>" class="card-img-top"></td>
+                    <td><?= $film['nama_genre']?></td>
+                    <td><?= $film['duration']?></td>
+                    <td>
+                    <a href="/film/update/<?= $film["id"]; ?>" class="btn btn-success">Update</a>
+                    <a href="" class="btn btn-warning">Delete</a>
                     </td>
-                    </tr>
-                    <?php endforeach; ?>
+                </tr>
+            <?php endforeach; ?>
                     </table>
     </div>
                     </div>
